@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+
+*,*::before, *::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+
+
+nav,footer,header,aside{display: block;}
+
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 13px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a :visited{ text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+/* ====================================== */
+/* -------------------------------------- */
+/* ====================================== */
+
+body{
+    font-family: Poppins;
+    font-size: 15px;
+    background-color: rgb(243, 224, 200);
+    height: 1500px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    padding: 30px 0;
+    margin: 0 0 50px 0;
+    background-color: #b1aeae;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+nav>a{
+    color: #323030;
+}
+nav>a:hover{
+    color: #1d1d57;
+    text-decoration: underline;
+}
+.progras___bar_array{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 10%;
+    background-color: #3c3c43a1;
+    border-bottom: 3px solid #1d1d57;
+}
+.progras_bar{
+    position: absolute;
+    background-color: antiquewhite;
+    height: 100%;
+    border-radius:0 3rem 3rem 0;
+}
+
+h3{
+    font-family: Sigmar;
+    font-size: 50px;
+    color: #fff;
+    -webkit-text-stroke: 1px #323030;
+}
+
+/* main */
+main{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 500px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
